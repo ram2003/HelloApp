@@ -20,16 +20,6 @@
 				<groupId>org.jboss.as.plugins</groupId>
 				<artifactId>jboss-as-maven-plugin</artifactId>
 				<version>7.9.Final</version>
-					<configuration>
-						<execute-commands>
-						<commands>
-							<command>deploy target/core-services.war</command>
-						</commands>
-						</execute-commands>
-							<hostname>localhost</hostname>
-							<username>admin</username>
-							<password>admin</password>
-					</configuration>
 		</plugin>
     	</plugins>
     </pluginManagement>
