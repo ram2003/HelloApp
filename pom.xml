@@ -13,14 +13,9 @@
     	<plugins>
     		<plugin>
     			<groupId>org.codehaus.mojo</groupId>
-			<artifactId>cobertura-maven-plugin</artifactId>
-			<version>2.7</version>
-		</plugin>
-		<plugin>
-				<groupId>org.jboss.as.plugins</groupId>
-				<artifactId>jboss-as-maven-plugin</artifactId>
-				<version>7.9.Final</version>
-		</plugin>
+				<artifactId>cobertura-maven-plugin</artifactId>
+				<version>2.7</version>
+			</plugin>
     	</plugins>
     </pluginManagement>
   </build>
@@ -55,7 +50,14 @@
 <artifactId>testng</artifactId>
 <version>6.9.10</version>
 </dependency>
-    
+
+<!-- https://mvnrepository.com/artifact/org.codehaus.cargo/cargo-maven2-plugin -->
+<dependency>
+    <groupId>org.codehaus.cargo</groupId>
+    <artifactId>cargo-maven2-plugin</artifactId>
+    <version>1.7.9</version>
+</dependency>
+   
 </dependencies>
 
 </project>
